@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  /* background-color: rgb(13 205 253 / 25%); */
+  background-image: linear-gradient(
+    171deg,
+    rgba(191, 208, 228, 0.82) 17.1%,
+    rgba(95, 119, 152, 0.84) 67.4%
+  );
+}
+.container {
+  height: 100vh;
+}
+
+form {
+  background-color: rgb(24 38 54 / 98%);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#genPass {
+  border: none;
+  font-weight: bold;
+}
+#genPass:focus {
+  outline: none;
+  box-shadow: none;
+}
+#copyButton {
+  border-left: 2px solid transparent;
+  border-radius: 0 5px 5px 0;
+  background: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+#copyButton:hover {
+  color: #fff;
+  background-color: #0a58ca;
+  border-color: #0a58ca;
+}
+.range {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  color: #fff;
+  /* line-height: 20px; */
+  padding: 10px;
+}
+#myForm {
+  padding: 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 8px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 8px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 8px rgba(0, 0, 0, 0.44);
+}
+
+.form-control-range {
+  display: block;
+  width: 100%;
+}
+
+.form-check {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  margin: 4px 0px;
+  padding: 5px 35px;
+}
